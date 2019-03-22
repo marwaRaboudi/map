@@ -1,7 +1,6 @@
-function sayHiTo(name) {
-  return `Hi, ${name}`;
+
+function maskUSPhone() {
+ console.log('hello');
 }
 
-const message = sayHiTo('Marwa');
-
-console.log(message);
+export default maskUSPhone;
