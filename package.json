@@ -1,0 +1,25 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "An NPM package that exports google maps API functionalities",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marwaRaboudi/map.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "google maps api",
+    "javascript"
+  ],
+  "author": "Marwa Raboudi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marwaRaboudi/map/issues"
+  },
+  "homepage": "https://github.com/marwaRaboudi/map#readme"
+}
