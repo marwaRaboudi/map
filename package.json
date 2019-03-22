@@ -1,12 +1,13 @@
 {
-  "name": "map",
+  "name": "js-google-map",
   "version": "1.0.0",
   "description": "An NPM package that exports google maps API functionalities",
   "main": "build/index.js",
   "scripts": {
     "build": "npm run lint && babel ./src -d ./lib",
     "lint": "eslint ./src",
-    "test": "nyc mocha --require babel-core/register"
+    "test": "nyc mocha --require babel-core/register",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
