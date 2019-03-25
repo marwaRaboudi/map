@@ -5,7 +5,7 @@ class Map {
   }
 
   setMap() {
-    return "map is set";
+    return "map is set and ready";
   }
 
 }
